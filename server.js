@@ -16,7 +16,7 @@ app.use(express.static('./public'));
 
 //var link = 'mongodb://heroku_link here';
 
-var link = 'mongodb://localhost/nytreact';
+var link = 'mongodb://localhost/reactthetimes';
 
 mongoose.connect(link);
 var db = mongoose.connection;
